@@ -1,3 +1,6 @@
+# Nova branch criada a partir do main para o curso Angular 14: evoluindo a aplicação
+
+
 # serpro_1_angular_14_aplique_os_conceitos
 
 
@@ -40,8 +43,6 @@
 
 
 
-# Nova branch criada a partir do main para o curso Angular 14: evoluindo a aplicação
 
 
-## Preencher algo aqui 2
 
