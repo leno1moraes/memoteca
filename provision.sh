@@ -29,3 +29,6 @@ apt-get install -y npm
 mkdir -p /projeto
 
 chmod -R 777 /projeto
+
+# Instala o Angular CLI na versão 14.0.0 globalmente
+npm install -g @angular/cli@14.0.0
