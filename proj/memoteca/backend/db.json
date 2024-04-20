@@ -4,31 +4,36 @@
       "id": 1,
       "conteudo": "Luziadaaaa !!!! Cadê você meu filho",
       "autoria": "Queen",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Na minha máquina funciona!",
       "autoria": "Dev da madrugada",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Continue a codar muleke",
       "autoria": "Garoto de programa",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "conteudo": "Testando função de editar",
       "autoria": "Angular ",
       "modelo": "modelo2",
-      "id": 4
+      "id": 4,
+      "favorito": false
     },
     {
       "conteudo": "Alguma coisa aqui",
       "autoria": "Dev 2",
       "modelo": "modelo1",
-      "id": 5
+      "id": 5,
+      "favorito": false
     }
   ]
 }
