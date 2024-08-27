@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: node:16.20.2
+    container_name: frontend
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "8080:4200"
+    command: >
+      sh -c "rm -rf ./frontend/.angular && rm -rf ./frontend/node_modules && npm install && npm run start"
+    environment:
+      - CHOKIDAR_USEPOLLING=true   
+    networks:
+      - memoteca-network
+
+  backend:
+    image: node:16.20.2
+    container_name: json-server
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8001:8001"
+    command: >
+      sh -c "rm -rf ./backend/node_modules && npm install && npm start"
+    networks:
+      - memoteca-network   
+
+networks:
+  memoteca-network:
+    driver: bridge
