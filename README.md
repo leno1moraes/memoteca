@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/0ed1a30b-47dd-46cd-976f-68ce94c59d56)
+![image](https://github.com/user-attachments/assets/967700d0-551a-4f4a-bcb6-502c91955000)
+
 
 # Projeto Memoteca
 
